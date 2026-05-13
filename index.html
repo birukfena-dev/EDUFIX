@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUFIX - Fixing the way students learn</title>
+    <style>
+        /* የድረ-ገጹ አጠቃላይ ውበት (CSS) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo { font-size: 1.8rem; font-weight: bold; color: #3498db; }
+        
+        .hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1501504905953-f8c97f33e1f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            color: white;
+            padding: 100px 5%;
+            text-align: center;
+        }
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; }
+        
+        .btn {
+            background: #3498db;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover { background: #2980b9; }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 50px 5%;
+            background: white;
+        }
+        .feature-card {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .feature-card:hover { transform: translateY(-10px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .feature-card h3 { color: #2c3e50; }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">EDUFIX</div>
+        <nav>
+            <a href="#" style="color:white; text-decoration:none; margin-left:20px;">Home</a>
+            <a href="#" style="color:white; text-decoration:none; margin-left:20px;">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>የኢትዮጵያን ተማሪዎች በ AI እናግዛለን</h1>
+        <p>Fixing the way students learn with AI - Your 24/7 Digital Tutor.</p>
+        <a href="#" class="btn">ትምህርት ጀምር</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>AI Tutor Assistant</h3>
+            <p>ለማንኛውም ጥያቄ ፈጣን እና ግልጽ ማብራሪያ ማግኘት።</p>
+        </div>
+        <div class="feature-card">
+            <h3>Digital Library</h3>
+            <p>ሁሉንም የመማሪያ መጽሐፍት በአንድ ቦታ በዲጂታል መንገድ።</p>
+        </div>
+        <div class="feature-card">
+            <h3>Smart Quiz</h3>
+            <p>ለፈተና ዝግጁ የሚያደርጉ ብልጥ ጥያቄዎች።</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EDUFIX - Developed by Biruk Tadesse (9th Grade Student)</p>
+    </footer>
+
+</body>
+</html>
